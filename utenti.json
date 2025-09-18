@@ -1,0 +1,95 @@
+[
+    {"Id":1,
+     "emoji": " 😘 ",
+     "nome":"Martina", 
+     "cognome":"Rinaldi",
+     "email":"marinaldi@example.it",
+     "voto":"Voto: 7/10",
+     "recensione":"Eleganza pura, sembrava uscito da una favola! Lo consiglio!"
+
+},
+    
+    {"Id":2,
+     "emoji":"😜",
+     "nome":"Lucia",
+     "cognome":"Ferraro",
+     "email":"lucia.ferr@example.it",
+      "voto":"Voto: 8/10",
+     "recensione":"Perfetta vestibilità, mi ha fatto sentire una principessa. Bellisima qualità!"
+
+},
+    
+    {"Id":3, 
+     "emoji":"👩",
+     "nome":"Giulia", 
+     "cognome":"De Santis",
+     "email":"giugiu@example.com",
+      "voto":"Voto: 9/10",
+     "recensione":"Dettagli raffinati e tessuto di altissima qualità. Super consigliato!!"
+
+},
+    
+    {"Id":4, 
+     "emoji":"👩‍🦱",
+     "nome":"Alessandra", 
+     "cognome":"Neri",
+     "email":"a.neri@example.com", 
+      "voto":"Voto: 10/10",
+     "recensione":"Semplice ma d'effetto, proprio come lo volevo."
+    },
+    
+    {"Id":5, 
+     "emoji":"👩‍🦰",
+     "nome":"Chiara", 
+     "cognome":"Verdi", 
+     "email":"chiaraverdi@example.it",
+      "voto":"Voto: 7/10",
+     "recensione":"Taglio impeccabile, ha valorizzato ogni curva."
+
+},
+    
+    {"Id":6, 
+     "emoji":"👵",
+     "nome":"Marta", 
+     "cognome":"Russo", 
+     "email":"marta@example.com",
+      "voto":"Voto: 6/10",
+     "recensione":"Tutti gli invitati hanno fatto i complimenti per l'abito! Prezzo WooW!"
+    },
+    
+    {"Id":7, 
+     "emoji":"😛",
+     "nome":"Federica",
+     "cognome":"Bianco", 
+     "email":"fedebianco@example.it",
+      "voto":"Voto: 8/10",
+     "recensione":"Leggero, comodo e bellissimo per ballare tutta la notte. Spedizione veloce, l'ho acquistato lunedì e giovedì è già arrivato!!"
+    },
+    
+    {"Id":8, 
+     "emoji":"🙂",
+     "nome":"Daniela",
+     "cognome":"Conti",
+     "email":"contidani@example.it",
+      "voto":"Voto: 9/10",
+     "recensione":"Cuciture precise e uno strascico da sogno."
+    },
+    
+    {"Id":9, 
+     "emoji":"😆",
+     "nome":"Sara", 
+     "cognome":"Galli", 
+     "email":"galli.sara@example.it",
+      "voto":"Voto: 8/10",
+     "recensione":"Un abito romantico che ha superato ogni mia aspettativa."
+    },
+    
+    {"Id":10, 
+     "emoji":"😍",
+     "nome":"Nicole", 
+     "cognome":"Moretti",
+     "email":"moretti.nic@example.com",
+      "voto":"Voto: 10/10",
+     "recensione":"Ho pianto appena l'ho indossato: era lui. Tutti i miei parenti sono rimasti sbalorditi, anche dal prezzo! "
+    }
+]

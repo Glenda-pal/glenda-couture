@@ -1,0 +1,141 @@
+.foto {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+body {
+    background-image: url(sfondo.jpeg);
+     margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.secondoTitolo {
+    font-style: italic;
+    color: palevioletred;
+}
+.htitolo {
+    font-style: italic;
+    color: palevioletred;
+}
+.navbar {
+  background-color: palevioletred;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;       
+             
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.link a:hover {
+  color: #ffe4ec;
+}
+.facebook{
+    text-decoration: none;
+  color: white;
+  font-size: 25px;
+    padding-right: 10px;
+    gap: 10px;
+}
+.whatsapp {
+    text-decoration: none;
+  color: white;
+  font-size: 25px;
+    padding-right: 10px;
+    gap: 10px;
+}
+.instagram {
+    text-decoration: none;
+  color: white;
+  font-size: 25px;
+    padding-right: 10px;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.mostra {
+    text-decoration: none;
+  color: white;
+  font-size: 18px;
+    padding-right: 10px;
+    gap: 10px;
+}
+.mostra:hover {
+  color: #ffe4ec;
+   }
+
+.tab{
+    margin-left: 180px;
+}
+
+.bottone{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    color: palevioletred;
+    font-style: italic;
+    font-size: 30px;
+}
+.nome{
+    font-style: italic;
+    font-size: 20px;
+    color: dimgray;
+    justify-content: flex-start;
+}
+.pass{
+    font-style: italic;
+    font-size: 20px;
+    color: dimgray;
+}
+.registra{
+    font-style: italic;
+    font-size: 18px;
+    color: dimgray;
+}
+.fine{
+     display: flex;
+   background-color: palevioletred;
+   height: 150px;
+}
+.testo{
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+  color: #ffe4ec;
+}
+.prezzo{
+    font-family: Centaur;
+}
+@media screen and (max-width: 576px) {
+   #tabella td:nth-child(2),
+  #tabella th:nth-child(2)  {
+    display: none;
+      
+  }
+}
+
+@media screen and (max-width: 576px) {
+   #tabella td:nth-child(5),
+  #tabella th:nth-child(5)  {
+    display: none;
+      } 
+   

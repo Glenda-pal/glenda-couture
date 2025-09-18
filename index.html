@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="titolo.jpg" type="image/png">
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>GlendaCouture</title>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="link w-50">  
+    <a href="logIn.html"><i class=" logOut fa-solid fa-right-from-bracket"></i> Logout </a>
+           <button class="btn" data-bs-toggle="modal" data-bs-target="#carrelloModal" style="color: white; text-decoration: none; font-size: 17px; padding-right: 10px; gap: 10px; text-align: center;"><i class="carrello fa-solid fa-cart-shopping"></i> Carrello</button>
+          <button class="btn btn-link mostra" id="rimostra" style="color: white; text-decoration: none; font-size: 17px; padding-right: 10px; gap: 10px; text-align: start;">Rimostra card</button>
+        </div>
+        <div class="modal fade" id="carrelloModal" tabindex="-1" aria-labelledby="carrelloModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="carrelloModalLabel">🛒 Il tuo carrello</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+      </div>
+      <div class="modal-body" id="carrello-container">
+        <!-- I prodotti aggiunti verranno mostrati qui -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        <button type="button" class="btn btn-success">Procedi al pagamento</button>
+      </div>
+    </div>
+  </div>
+        
+    <button class="btn btn-link mostra" id="rimostra" style="color: white; text-decoration: none; font-size: 17px; padding-right: 10px; gap: 10px; text-align: start;">Rimostra card</button>
+        </div>
+       <div class="contatti">
+          <a href="https://www.facebook.com/share/1Bb74HNwG7/"><i class="facebook fa-brands fa-facebook"></i></a>
+           <a href="https://wa.me/393296294040"><i class="whatsapp fa-brands fa-whatsapp"></i>
+           </a>
+        <a href="https://www.instagram.com/glenda_palumbo?igsh=MWliY3ViYzNpZ3Nzaw=="><i class="instagram fa-brands fa-instagram"></i></a>
+    </div>
+    </nav>
+    
+    <div class="container mt-3 text-center">
+     <img src="Logo%20di%20Glenda%20Couture%20elegante.png" class="image w-50">
+     
+<div id="titolo" class="row g-3 mt-3">
+            <h2 class="secondoTitolo">Collezione estate 2024/2025</h2>
+           <div class="row text-center m-3" id="datiApi">
+               </div>
+            </div>
+       
+    </div>
+<div class="table text-center">
+    <h4 class="htitolo">Dicono di noi...</h4>
+    <table class="tab w-75" id="tabella"></table>
+        </div> 
+<div class="modal fade" id="dettaglioModal" tabindex="-1" aria-labelledby="dettaglioModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">I nostri clienti</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-nome-cognome"></h3>
+        <h2 id="modal-emoji"></h2>
+   <p id="modal-recensione"></p>
+          <h4 id="modal-voto"></h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+       </div>
+    </div>
+  </div>
+</div>      
+   <footer class="fine">
+       <div class="contenitore container w-100">
+        <div class="row">
+            <div class="col col-4 text-start mt-2">
+                <a href="#"><i class="fa-solid fa-truck"></i> Spedizione</a> <br>
+                <a href="#"><i class="fa-solid fa-envelope"></i> palumboglenda@gmail.com</a><br>
+                <a href="#">Chi siamo</a><br>
+               </div>
+            <div class="col col-4 text-start mt-2">
+                 <p class="testo">Dove ci troviamo:<br>
+            <a href="https://maps.app.goo.gl/V1SnAe1VJ3TABBix9"><i class="fa-solid fa-map-pin"></i> Via Luigi Rizzo, 20, 00136 Roma RM</a>
+            </div>
+            <div class="col col-4 text-start mt-2">
+                <a href="#" class="p-3"> Lavora con noi</a><br>
+                <a href="#" class="p-3"> Servizio Clienti</a><br>
+                <a href="#" class="p-3"> Iva e fatturazione</a><br>
+                <button class="reso btn btn-link" style="color: white; text-decoration: none; p-0" data-bs-toggle="modal" data-bs-target="#resiModal">Resi e Rimborsi</button>
+                <div class="modal fade" id="resiModal" tabindex="-1" aria-labelledby="resiModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 id="modal-title fs-5" id="resiModalLabel">Resi e Rimborsi</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p id="modal-testo"> 🛍️ Politica di Reso e Rimborsi
+La soddisfazione dei nostri clienti è la nostra priorità. Se per qualsiasi motivo non sei completamente soddisfatto del tuo acquisto, puoi richiedere un reso secondo le condizioni riportate di seguito.</p>
+
+<p>📅 Tempi per effettuare un reso
+    Hai 14 giorni di tempo dalla data di ricezione del tuo ordine per richiedere un reso.</p>
+
+<p>📦 Condizioni per il reso
+Per poter essere accettato, l’articolo deve:
+
+Essere inutilizzato, non lavato e nelle stesse condizioni in cui è stato ricevuto
+
+Avere ancora tutte le etichette e la confezione originale
+
+    Non essere un prodotto personalizzato o in saldo finale (ove indicato)</p>
+
+<p>🔁 Come richiedere un reso
+Invia una mail a palumboglenda@gmail.com specificando:
+
+Numero ordine
+
+Articolo da restituire
+
+Motivo del reso (facoltativo)
+
+    Riceverai le istruzioni su come procedere con la spedizione.</p>
+
+<p>🚚 Spese di spedizione
+Le spese di spedizione per il reso sono a carico del cliente, salvo articoli difettosi o errori da parte nostra.
+
+Consigliamo di utilizzare un metodo tracciabile: non siamo responsabili per eventuali smarrimenti durante il trasporto.</p>
+
+<p>💸 Rimborsi
+Una volta ricevuto e verificato l’articolo, procederemo con il rimborso entro 7 giorni lavorativi.
+
+Il rimborso verrà effettuato sullo stesso metodo di pagamento utilizzato al momento dell’acquisto.
+
+    Le spese di spedizione originali non sono rimborsabili.</p>
+
+<p>❗ Esclusioni
+Non è possibile effettuare resi o rimborsi per:
+
+Prodotti personalizzati
+
+Articoli in saldo finale
+
+Prodotti visibilmente danneggiati dopo l’acquisto per cause non imputabili alla nostra azienda
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+        </div>
+    </div>
+  </div>
+</div>
+            </div>
+           </div>  
+       </div>
+      </footer>    
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
+<script src="script.js"></script>
+    </body>
+</html>
